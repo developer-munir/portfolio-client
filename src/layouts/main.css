@@ -21,3 +21,6 @@
   background-repeat: no-repeat;
   height: 100vh;
 }
+.skills-border {
+  border-bottom: 2px solid #b4161b;
+}

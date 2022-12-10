@@ -5,8 +5,8 @@ import { Typewriter } from "react-simple-typewriter";
 const Header = () => {
   return (
     <div className="flex items-center justify-center  banner">
-      <div className="grid grid-cols-2 gap-40">
-        <div className="flex items-center ">
+      <div className="grid md:grid-cols-2 gap-40">
+        <div className="flex items-center">
           <div className="p-2">
             <h1 className="text-4xl">Hello!</h1>
             <p className="text-3xl mt-2">
@@ -29,15 +29,20 @@ const Header = () => {
             <p className="text-sm font-bold" data-aos="fade-right">
               Frontend Web Developer
             </p>
-            <button
-              className="my-bg-red p-2 my-text font-semibold mt-10 px-6 text-center flex items-center"
-              data-aos="fade-right"
+            <a
+              href="https://drive.google.com/file/d/1BBMz2K_HsXS10Gk0fPQfCJWXN3JJQ1GL/view?usp=share_link"
+              target="blank"
             >
-              <span className="mr-3">Get Resume</span>
-              <span>
-                <AiOutlineCloudDownload size={20}></AiOutlineCloudDownload>
-              </span>
-            </button>
+              <button
+                className="my-bg-red p-2 my-text font-semibold mt-10 px-6 text-center flex items-center"
+                data-aos="fade-right"
+              >
+                <span className="mr-3">Get Resume</span>
+                <span>
+                  <AiOutlineCloudDownload size={20}></AiOutlineCloudDownload>
+                </span>
+              </button>
+            </a>
           </div>
         </div>
         <div data-aos="zoom-in-left">
