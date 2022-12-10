@@ -1,0 +1,23 @@
+.my-bg {
+  background-color: #cad5e2;
+}
+.my-bg-red {
+  background-color: #b4161b;
+}
+.my-text {
+  color: #cad5e2;
+}
+.my-text-red {
+  color: #b4161b;
+}
+.banner {
+  background-image: linear-gradient(
+      180deg,
+      rgba(192, 182, 182, 0.45) 0%,
+      rgba(255, 255, 255, 0.6) 100%
+    ),
+    url("../assets/5588596.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
