@@ -5,7 +5,8 @@ import { Link } from "react-router-dom";
 const FixedNav = () => {
   const navLinks = (
     <>
-      <li>HOME</li>
+      <li className="mr-3">HOME</li>
+      <li className="mr-3">CONTACT</li>
     </>
   );
   return (
@@ -35,7 +36,7 @@ const FixedNav = () => {
             {navLinks}
           </ul>
         </div>
-        <div className="flex">
+        <div className="flex items-center">
           <Link className="mr-3 cursor-pointer">
             <FaFacebookF></FaFacebookF>
           </Link>
@@ -55,7 +56,9 @@ const FixedNav = () => {
       </div>
       <div className="navbar-end">
         <Link>
-          <button>Contact Me</button>
+          <button className="my-bg-red p-2 my-text font-semibold  px-6 text-center flex items-center">
+            Hire Me
+          </button>
         </Link>
       </div>
     </div>

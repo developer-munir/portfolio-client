@@ -1,6 +1,7 @@
 import React from "react";
 import FixedNav from "../Shared/Navbar/FixedNav";
 import ContactMe from "./ContactMe";
+import Footer from "./Footer";
 import Header from "./Header";
 import Projects from "./Projects";
 
@@ -18,6 +19,9 @@ const Home = () => {
       </div>
       <div>
         <ContactMe></ContactMe>
+      </div>
+      <div>
+        <Footer></Footer>
       </div>
     </div>
   );

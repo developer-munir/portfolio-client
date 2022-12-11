@@ -19,6 +19,15 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.input-style {
+  border-bottom: 2px solid rgb(136, 132, 132);
+  outline: none !important;
+  border-bottom-color: rgb(114, 107, 108);
+}
+.footer-icons {
+  border-bottom: 1px solid rgb(136, 132, 132);
+  border-bottom-color: rgb(114, 107, 108);
+}
 
 .App-link {
   color: #61dafb;
