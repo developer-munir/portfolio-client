@@ -1,4 +1,6 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
+import emailjs, { sendForm } from "@emailjs/browser";
+import toast from "react-hot-toast";
 
 const ContactMe = () => {
   const [text, setText] = useState("font-normal");
@@ -10,16 +12,37 @@ const ContactMe = () => {
     e.preventDefault();
     setText("font-normal");
   };
+
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+
+    emailjs
+      .sendForm(
+        "service_t312ek2",
+        "template_t8jcw2f",
+        form.current,
+        "2AnYbZ4lSoYEcCvyu"
+      )
+      .then(
+        (result) => {
+          toast.success("Successfully send");
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
+  };
   return (
     <div className="my-6 pb-6 px-6">
       <h1 className="text-4xl font-bold my-3  text-center uppercase">
         Contact Me
       </h1>
-      <form className="my-20">
+      <form className="my-20" ref={form} onSubmit={sendEmail}>
         <div className="grid md:grid-cols-2 gap-2">
           <input
             type="text"
-            name=""
+            name="user_name"
             className="input rounded-none input-style w-full px-0"
             placeholder="NAME*"
             id=""
@@ -27,7 +50,7 @@ const ContactMe = () => {
           />
           <input
             type="email"
-            name=""
+            name="user_email"
             className="input  w-full rounded-none input-style px-0"
             placeholder="EMAIL*"
             id=""
@@ -37,6 +60,7 @@ const ContactMe = () => {
         <textarea
           className={`textarea ${text} rounded-none input-style w-full my-3 py-10 px-0`}
           placeholder="MESSAGE*"
+          name="message"
           required
           onFocus={handleOnfocus}
           onBlur={handleOnbluer}

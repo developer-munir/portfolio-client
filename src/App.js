@@ -5,6 +5,7 @@ import Home from "./pages/Home/Home";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
+import { Toaster } from "react-hot-toast";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -27,6 +28,7 @@ function App() {
       <RouterProvider router={route}>
         <Main></Main>
       </RouterProvider>
+      <Toaster />
     </div>
   );
 }
