@@ -6,7 +6,7 @@ import project3 from "../../assets/screencapture-assignment-ten-8362c-web-app-20
 import { FaArrowRight } from "react-icons/fa";
 import { MdLiveTv } from "react-icons/md";
 
-const Skills = () => {
+const Projects = () => {
   return (
     <div className="my-6 py-6 px-6">
       <span className="flex items-center ">
@@ -34,12 +34,18 @@ const Skills = () => {
               Technologies: React, Tailwind ,Firebase, Node , Express , Mongodb
             </p>
             <div className="card-actions justify-end">
-              <button className="my-bg-red my-text px-6 py-2 flex items-center rounded-xl">
-                <span>Live</span>
-                <span className="ml-3">
-                  <MdLiveTv></MdLiveTv>
-                </span>
-              </button>
+              <a
+                href="https://overstock-shop.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="my-bg-red my-text px-6 py-2 flex items-center rounded-xl">
+                  <span>Live</span>
+                  <span className="ml-3">
+                    <MdLiveTv></MdLiveTv>
+                  </span>
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -59,12 +65,18 @@ const Skills = () => {
               Technologies: React, Tailwind ,Firebase, Node , Express , Mongodb
             </p>
             <div className="card-actions justify-end">
-              <button className="my-bg-red my-text px-6 py-2 flex items-center rounded-xl">
-                <span>Live</span>
-                <span className="ml-3">
-                  <MdLiveTv></MdLiveTv>
-                </span>
-              </button>
+              <a
+                href="https://assignment-11-12beb.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="my-bg-red my-text px-6 py-2 flex items-center rounded-xl">
+                  <span>Live</span>
+                  <span className="ml-3">
+                    <MdLiveTv></MdLiveTv>
+                  </span>
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -86,12 +98,18 @@ const Skills = () => {
               Express.js, Firebase
             </p>
             <div className="card-actions justify-end">
-              <button className="my-bg-red my-text px-6 py-2 flex items-center rounded-xl">
-                <span>Live</span>
-                <span className="ml-3">
-                  <MdLiveTv></MdLiveTv>
-                </span>
-              </button>
+              <a
+                href="https://assignment-ten-8362c.web.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <button className="my-bg-red my-text px-6 py-2 flex items-center rounded-xl">
+                  <span>Live</span>
+                  <span className="ml-3">
+                    <MdLiveTv></MdLiveTv>
+                  </span>
+                </button>
+              </a>
             </div>
           </div>
         </div>
@@ -100,4 +118,4 @@ const Skills = () => {
   );
 };
 
-export default Skills;
+export default Projects;

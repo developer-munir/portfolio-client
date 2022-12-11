@@ -1,7 +1,8 @@
 import React from "react";
 import FixedNav from "../Shared/Navbar/FixedNav";
+import ContactMe from "./ContactMe";
 import Header from "./Header";
-import Skills from "./Skills";
+import Projects from "./Projects";
 
 const Home = () => {
   return (
@@ -13,7 +14,10 @@ const Home = () => {
         <Header></Header>
       </div>
       <div>
-        <Skills></Skills>
+        <Projects></Projects>
+      </div>
+      <div>
+        <ContactMe></ContactMe>
       </div>
     </div>
   );

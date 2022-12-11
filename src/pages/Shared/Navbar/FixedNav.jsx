@@ -54,7 +54,9 @@ const FixedNav = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <a className="btn">Get started</a>
+        <Link>
+          <button>Contact Me</button>
+        </Link>
       </div>
     </div>
   );
