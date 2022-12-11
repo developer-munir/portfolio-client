@@ -4,8 +4,8 @@ import { AiOutlineCloudDownload } from "react-icons/ai";
 import { Typewriter } from "react-simple-typewriter";
 const Header = () => {
   return (
-    <div className=" banner">
-      <div className=" p-10">
+    <div className="lg:flex items-center justify-center  banner">
+      <div className="lg:grid grid-cols-2 gap-60 p-10">
         <div className="flex items-center">
           <div className="p-2">
             <h1 className="text-4xl">Hello!</h1>
@@ -45,13 +45,13 @@ const Header = () => {
             </a>
           </div>
         </div>
-        {/* <div data-aos="zoom-in-left">
+        <div data-aos="zoom-in-left" className="img-section">
           <img
             src={mypic}
             alt=""
-            className="rounded-full w-[200px] h-[200px] md:w-[400px] md:h-[400px]"
+            className="rounded-full  w-[400px] h-[400px]"
           />
-        </div> */}
+        </div>
       </div>
     </div>
   );
