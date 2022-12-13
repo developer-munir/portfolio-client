@@ -38,7 +38,7 @@ const ContactMe = () => {
       <h1 className="text-4xl font-bold my-3  text-center uppercase">
         Contact Me
       </h1>
-      <form className="my-20" ref={form} onSubmit={sendEmail}>
+      <form className="my-10" ref={form} onSubmit={sendEmail}>
         <div className="grid md:grid-cols-2 gap-2">
           <input
             type="text"

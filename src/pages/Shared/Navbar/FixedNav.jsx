@@ -77,7 +77,7 @@ const FixedNav = () => {
         <ul className="menu menu-horizontal px-1">{navLinks}</ul>
       </div>
       <div className="navbar-end">
-        <Link>
+        <Link to="/contact">
           <button className="my-bg-red p-2 my-text font-semibold  px-6 text-center flex items-center">
             Hire Me
           </button>
