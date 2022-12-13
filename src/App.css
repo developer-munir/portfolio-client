@@ -1,8 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
 .App {
   font-family: "Oswald", sans-serif;
+  overflow-x: hidden;
 }
-
+.name-font {
+  font-family: "Permanent Marker", cursive;
+}
+.signeture {
+  font-family: "La Belle Aurore", cursive;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;

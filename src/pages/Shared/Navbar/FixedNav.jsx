@@ -5,8 +5,18 @@ import { Link } from "react-router-dom";
 const FixedNav = () => {
   const navLinks = (
     <>
-      <li className="mr-3">HOME</li>
-      <li className="mr-3">CONTACT</li>
+      <Link to="/home">
+        <li className="mr-3">HOME</li>
+      </Link>
+      <Link to="/projects">
+        <li className="mr-3">PROJECTS</li>
+      </Link>
+      <Link to="/contact">
+        <li className="mr-3">CONTACT</li>
+      </Link>
+      <Link to="/blog">
+        <li className="mr-3">BLOG</li>
+      </Link>
     </>
   );
   return (
@@ -37,18 +47,30 @@ const FixedNav = () => {
           </ul>
         </div>
         <div className="flex items-center">
-          <Link className="mr-3 cursor-pointer">
+          <a
+            target="blank"
+            className="mr-3 cursor-pointer"
+            href="https://www.facebook.com/developer.munirfb"
+          >
             <FaFacebookF></FaFacebookF>
-          </Link>
-          <Link className="mr-3 cursor-pointer">
+          </a>
+          <a
+            target="blank"
+            href="https://github.com/developer-munir"
+            className="mr-3 cursor-pointer"
+          >
             <FaGithub></FaGithub>
-          </Link>
-          <Link className="mr-3 cursor-pointer">
+          </a>
+          <a href="#" className="mr-3 cursor-pointer">
             <FaTwitter></FaTwitter>
-          </Link>
-          <Link className="mr-3 cursor-pointer">
+          </a>
+          <a
+            target="blank"
+            href="https://www.linkedin.com/in/munir-hossain-juwel/"
+            className="mr-3 cursor-pointer"
+          >
             <FaLinkedinIn></FaLinkedinIn>
-          </Link>
+          </a>
         </div>
       </div>
       <div className="navbar-center hidden lg:flex">

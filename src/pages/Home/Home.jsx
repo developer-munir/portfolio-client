@@ -1,5 +1,5 @@
 import React from "react";
-import FixedNav from "../Shared/Navbar/FixedNav";
+import AboutMe from "./AboutMe";
 import ContactMe from "./ContactMe";
 import Footer from "./Footer";
 import Header from "./Header";
@@ -8,20 +8,8 @@ import Projects from "./Projects";
 const Home = () => {
   return (
     <div>
-      <div>
-        <FixedNav></FixedNav>
-      </div>
       <div className="mb-4">
         <Header></Header>
-      </div>
-      <div>
-        <Projects></Projects>
-      </div>
-      <div>
-        <ContactMe></ContactMe>
-      </div>
-      <div>
-        <Footer></Footer>
       </div>
     </div>
   );
