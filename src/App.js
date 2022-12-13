@@ -9,6 +9,7 @@ import { Toaster } from "react-hot-toast";
 import Blog from "./pages/Home/Blog";
 import ContactMe from "./pages/Home/ContactMe";
 import Projects from "./pages/Home/Projects";
+import ProjectsDetails from "./pages/Home/ProjectsDetails";
 function App() {
   useEffect(() => {
     AOS.init();
@@ -30,6 +31,10 @@ function App() {
         {
           path: "/projects",
           element: <Projects></Projects>,
+        },
+        {
+          path: "/details",
+          element: <ProjectsDetails></ProjectsDetails>,
         },
         {
           path: "/contact",

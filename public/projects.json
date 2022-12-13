@@ -1,0 +1,41 @@
+[
+  {
+    "id": "63345f6f27678248af846b5a",
+    "picture": "https://i.ibb.co/GFstb6q/screencapture-overstock-shop-web-app-2022-12-11-02-28-11.png",
+    "picture1": "https://i.ibb.co/fSK3D9Z/screencapture-overstock-shop-web-app-categories-Ultrabooks-2022-12-13-18-36-34.png",
+    "picture2": "https://i.ibb.co/1G5KF4J/screencapture-overstock-shop-web-app-dashboard-2022-12-13-18-34-52.png",
+
+    "title": "Overstock Shop - A product resale website",
+    "technology": "Technologies: React, Tailwind ,Firebase, Node , Express , Mongodb",
+    "live": "https://overstock-shop.web.app/",
+    "githubclient": "https://github.com/developer-munir/overstock-client",
+    "githubserver": "https://github.com/developer-munir/overstock-server",
+    "details": "# Live Link: https://overstock-shop.web.app/# Project Details: Overstock.com  It's a fullstack project .Fetures of this project are Admin dashboard Firebase Authentication Mongodb crud Node express server Private Routing for adming , sellers, buyers admin email : developermunir@gmail.com ,password:juwel55"
+  },
+  {
+    "id": "63345f6f19d6e17db225a520",
+    "picture": "https://i.ibb.co/Wnx318J/screencapture-assignment-11-12beb-web-app-2022-12-11-02-27-16.png",
+    "picture1": "https://i.ibb.co/nQWkB8J/screencapture-assignment-11-12beb-web-app-services-6369475198c984621da7f580-2022-12-13-18-37-32.png",
+    "picture2": "https://i.ibb.co/MZjcRPy/screencapture-assignment-11-12beb-web-app-register-2022-12-13-18-38-08.png",
+
+    "title": "Wedding Family BD - A Wedding service website",
+    "technology": "Technologies: React, Tailwind ,Firebase, Node , Express , Mongodb",
+    "live": "https://assignment-11-12beb.web.app/",
+    "githubclient": "https://github.com/developer-munir/weeding-bd-client",
+    "githubserver": "https://github.com/developer-munir/weeding-bd-server",
+    "details": "# Live Link: https://assignment-11-12beb.web.app # Project Details: Wedding Family BD It's a fullstack project . There are many packages used in this project. packages are 1.React2.Firebase3.Node4.Mongodb5.express Also used some libraryies for styling .Like React Aos, ReactPhoto-View ,React Hot-toast Wedding family bd is a photography website . There Are many fetures have this site .You can choice your won package what ever you need.Also you can add your own package have need you.more fetures are You can review add in any service. Your review you should be update and also delete whatever you need. Customize your service package. Private Routing Login system"
+  },
+  {
+    "id": "63345f6fa70d0cfe613c012e",
+    "picture": "https://i.ibb.co/jJTqLC8/screencapture-assignment-ten-8362c-web-app-2022-12-11-02-27-27.png",
+    "picture1": "https://i.ibb.co/2s4nW9k/screencapture-assignment-ten-8362c-web-app-categories-all-2022-12-13-18-38-42.png",
+    "picture2": "https://i.ibb.co/PmQWjqX/screencapture-assignment-ten-8362c-web-app-see-Details-0282e0e58a5c404fbd15261f15c2ab6b-2022-12-13-1.png",
+
+    "title": "Panabee.io - A Programming Course website",
+    "technology": "Technologies: React Router, React PDF, Tailwind css, Node.js, Express.js, Firebase",
+    "live": "https://assignment-ten-8362c.web.app/",
+    "githubclient": "https://github.com/developer-munir/panabee-client",
+    "githubserver": "https://github.com/developer-munir/panabee-server",
+    "details": "# Live Link: https://assignment-ten-8362c.web.app/# Project Details: The Panabee.io futures For learning Panabee.io Technology, you have to know at least one PROGRAMMING LANGUAGE The Languages are:  Python Java R Javascript C++ Lua"
+  }
+]

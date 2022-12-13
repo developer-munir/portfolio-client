@@ -8,18 +8,18 @@ const Header = () => {
         <div className="flex items-center">
           <div className="p-2">
             <h1 className="text-sm ">Hi, my name is</h1>
-            <p className="text-4xl mt-2">
+            <p className="text-5xl mt-2">
               <span className="name-font">Munir Hossain Juwel.</span>
             </p>
             <p className="name-font mt-2">
               <span className="font-bold ">I build things for the web.</span>
             </p>
-            <p className="text-xl  mt-[50px]" data-aos="fade-right ">
+            <p className="text-3xl  mt-[50px]" data-aos="fade-right ">
               I'm a front-end developer. I have developed many types of
               front-ends Website's. I'm passionate about <br /> beautiful
               interfaces and intuitively implemented UX.
             </p>
-            <div className="flex mb-[100px]">
+            <div className="flex mb-[80px]">
               <a
                 href="https://drive.google.com/file/d/1BBMz2K_HsXS10Gk0fPQfCJWXN3JJQ1GL/view?usp=share_link"
                 target="blank"
